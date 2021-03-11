@@ -97,7 +97,7 @@
     "viewingkey": {
         "Command": "viewingkey",
         "Description": "How to manually add a viewing key to Keplr Wallet",
-        "Output": "To add a viewing key manually to KEPLR Wallet please check out the following video created by WhisperNode: https://youtu.be/_s2aqlewJYE"
+        "Output": "SCRT tokens are not private, and thus do not require viewing keys. SCRT is the governance token for the Secret Network.\\n\\n sTOKENS are private by default and you will have to create a viewing key transaction to see them in your wallet. You will also need to create a viewing key to see your bridge rewards in the \u2019earn\u2019 menus (link to earn Page: https://bridge.scrt.network/earn). Some examples of sTOKENS are sSCRT or sETH. These are also the tokens that you use to swap on the Secret Swap protocol.\\n\\n When you use the Bridge to move assets onto the Secret Network Chain, you will be creating sTOKENS out of your off-chain coins. Once you\u2019ve completed the bridge transfer, you will need to create viewing keys to view and access your tokens that are now in your wallet. You can do this in three ways:\\n\\n1. You can go to the \u2019earn\u2019 page, scroll down to find the coin you added through the bridge and select the \u2019view balances\u2019 button.\\n\\n2. You can navigate to the \u2019swap\u2019 page, select your recently imported sTOKEN from the drop down menu and click \u2019view balances\u2019\\n\\n3. You can manually add the token by copying the sTOKEN\u2019s Secret Network Address from HERE, then navigate to your Keplr Wallet, click the hamburger menu button on the top left, select \u2019add token\u2019, and paste the contract address into the the field.\\n\\n When creating a viewing key by clicking the \u2019view balances\u2019 button it will auto-populate the contract information for the token that you are trying to view. DO NOT click the option to import your own viewing key (below, I\u2019ll explain how to fix it if you did this already). Creating a viewing key requires a transaction on your wallet and will cost you a small amount of gas.\\n\\nIf you manually add the token, the process is the same, except you will need to paste the Secret Network contract address in manually. Do not import your own viewing key.\\n\\n You can find your copies of viewing keys created by your viewing key transactions by clicking the hamburger menu (three lines) on the top left of your Keplr wallet, then clicking \u2019Token List\u2019. If you don\u2019t see your viewing key here, you must create one through the aforementioned methods. \\nIf you mistakenly imported your own viewing key information during the process of creating your view keys for a specific token, then you will notice that you cannot see your sTOKENS and nothing will happen if you click \u2019View Balances\u2019. That\u2019s probably because you already have a viewing key for that contract address, it\u2019s just the incorrect one. You will need to navigate to the View Tokens menu on your Keplr wallet again, find the incorrect viewing key that you previously created, and click the trash can icon to delete it. This will allow you to repeat the process of clicking \u2019view balances\u2019 and creating your view key the correct way.\\n\\nTo add a viewing key manually to KEPLR Wallet please check out the following video created by WhisperNode: https://youtu.be/_s2aqlewJYE "
     },
     "wallets": {
         "Command": "wallets",
@@ -109,10 +109,10 @@
         "Description": "Link the blog",
         "Output": "https://scrt.network/blog/sefi-governance-token-for-secret-defi"
     },
-    "sSCRT": {
-        "Command": "sSCRT",
-        "Description": "What is sSCRT",
-        "Output": ""
+    "secrettokens": {
+        "Command": "secrettokens",
+        "Description": "What are Secret Tokens like sSCRT?",
+        "Output": "Secret Tokens, are tokens mimicking the ERC-20 standard that has the benefit of: \\n1) Having all balances be encrypted \\n2) Having the arguments into a transfer operation be encrypted\\n\\nSimply put, this ensures that any transaction and all rolling balances are forever kept encrypted. Each person can still query their own (and only their own) balance, as well as send tokens to others, privately. With very small changes, Secret Network can take a normal implementation of a token standard (like ERC-20, but WASM-compatible) and turn it into Secret Token standard.\\n https://scrt.network/blog/secret-tokens-programmable-privacy-for-defi "
     },
     "SCRT": {
         "Command": "SCRT",
@@ -208,5 +208,20 @@
         "Command": "convertsSCRT",
         "Description": "How to convert sSCRT to SCRT",
         "Output": "How to convert sSCRT to SCRT: https://www.youtube.com/watch?v=AGtJKMHIPls&t=3s"
+    },
+    "blog": {
+        "Command": "blog",
+        "Description": "",
+        "Output": ""
+    },
+    "burn": {
+        "Command": "burn",
+        "Description": "",
+        "Output": "ENG Swap"
+    },
+    "support": {
+        "Command": "support",
+        "Description": "",
+        "Output": "Quick list of command for most frequently asked FAQ questions"
     }
 }
