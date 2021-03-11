@@ -25,7 +25,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Import command dictionary from json file
-with open(f'config/commands.json', 'r') as file:
+with open(f'data/commands.json', 'r') as file:
     command_dict = json.load(file)
 
 # Start command to verify the bot is running (not required to start)

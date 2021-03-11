@@ -35,8 +35,8 @@ def make_json(csvFilePath, jsonFilePath):
 # Driver Code
  
 # Add csv and json file paths
-csvFilePath = r'config/commands.csv'
-jsonFilePath = r'config/commands.json'
+csvFilePath = r'data/commands.csv'
+jsonFilePath = r'data/commands.json'
  
 # Call the make_json function
 make_json(csvFilePath, jsonFilePath)
