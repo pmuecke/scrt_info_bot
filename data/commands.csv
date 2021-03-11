@@ -1,16 +1,43 @@
 Command,Description,Output
 commands,List of all commands,No output required
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
+socials,Link to all Secret Network social accounts,Discord: https://chat.scrt.network \nTwitter: https://twitter.com/SecretNetwork \nYoutube: https://www.youtube.com/channel/UCZPqj7h7mzjwuSfw_UWxQPw \nWebsite: https://scrt.network/
+explorer,Link secretnodes.com,https://secretnodes.com/
+analytics,Link to Secret Analytics,https://secretanalytics.xyz/
+privacy,Link a video about privacy,
+exchanges,List of exchanges that trade SCRT,https://coinmarketcap.com/currencies/secret/markets/
+SecretNetwork,"What is Secret Network Video, link 1 pager and graypaper","Secret Network is a first-of-its-kind, open-source blockchain that provides data privacy by default.\n\n While blockchains have the promise to create a more open and sustainable Internet, they have been held back by one major flaw: they expose all your data to everyone. A better Internet must protect data privacy and give users and organizations control over how their data is used and shared.\n\nSecret Network is a layer one solution built with the Cosmos SDK, leveraging proof-of-stake (PoS) using Tendermint’s Byzantine fault-tolerant consensus algorithms. The native token of Secret Network is “SCRT”. Computations are performed by each node on the network for verifiability, security, and consensus purposes.\n\nCheck out the following video explaining Secret Network in 60s: https://www.youtube.com/watch?v=c70BBVUCxxk"
+secretagent,What is a Secret Agent and how do you become one,"Secret Agents are community members who work alongside each other towards Secret’s mission of global adoption for open-source, privacy-centric technologies. They are the core of our community and the true secret to our success. Secret Agents are also eligible for project funding and compensated leadership positions. To get started on your journey to becoming a Secret Agent start by filling out the form located here: \nhttps://forms.gle/kYMXyWgS33W1FuPx5"
+whitepaper,link to whitepaper,
+graypaper,link to graypaper,https://www.securesecrets.org/pages/Secret_Network_Graypaper_2.0.1_1.pdf
+bridgesupport,Link to discord bridge support,For direct bridge support please head to the bridge support channel: https://discord.gg/tvzuFySzAa
+ammsupport,Link to discord amm support,For direct SecretSwap AMM support please head to the AMM-support channel: https://discord.gg/P8SaG6gJMc
+stakingsupport,Link to discord staking support,For direct staking support please head to the staking support channel: https://discord.gg/WBsWryC7Jt
+governance,How to vote on Secret Network,
+usecases,List of Secret Network use cases,"To achieve data privacy, the Secret Network protocol leverages key management, encryption protocols, and Trusted Execution Environments. As the first blockchain to support encrypted inputs, encrypted outputs, and encrypted state for smart contracts, Secret Network allows for new kinds of powerful decentralized applications to be built. This can unlock substantial value across multiple verticals and industries, including the following:\n\n- Decentralized Finance: \n\t - Support for privacy-preserving asset transfers and wrapped privacy tokens (https://scrt.network/blog/secret-scrt-keplr)\n\t - Front-running resistent AMM called SecretSwap is LIVE (https://scrt.network/blog/secretswap-is-live-on-mainnet), \n\t - Private lending \n\t - Secret Finance Ecosystem and Governance token $SEFI (https://scrt.network/blog/sefi-governance-token-for-secret-defi)\n- Dark OTC pools and auctions (https://scrt.network/blog/secret-auctions-web-app-mainnet)\n- NFTs: Creation of NFTs that have verifiable ownership of goods and experiences without ever exposing the underlying owner or their data (https://scrt.network/blog/secret-nfts)\n - Grant for the NFT standard was just issued! (https://scrt.network/blog/secret-grant-secret-nft-reference-implementation)\n - Privacy-Preserving Biometric Identity Verification (https://bit.ly/3ef2l80)\n- Data Sharing: Sharing and monetizing data while keeping it secure. \n- Machine Learning: Discovering powerful insights while protecting underlying data. \n- Healthcare: Allowing research over encrypted data, driving innovation. \n- Programmatic access control"
+develop,How to develop on Secret Network,
+buy,How to buy SCRT,"There are 3 routes to obtain SCRT: \n1)Buy SCRT on a centralized exchange (see /exchanges) \n2) Purchase WSCRT on Uniswap, convert to sSCRT (see /unwrapWSCRT), convert sSCRT to SCRT (see /convertsSCRT) \n3) Bridge ETH (or a supported ERC-20 token) to the Secret Network and use SecretSwap to swap the secret token for sSCRT which can then be swapped for SCRT within Keplr."
+stake,How to stake,For a living guide to staking SCRT please check out the following blogpost: \n https://scrt.network/blog/staking-secrets-guide-to-staking-delegating-scrt 
+learn,Learn about Secret Network,
+viewingkey,How to manually add a viewing key to Keplr Wallet,To add a viewing key manually to KEPLR Wallet please check out the following video created by WhisperNode: https://youtu.be/_s2aqlewJYE
+wallets,List of wallets with their respective links,Keplr: https://wallet.keplr.app/ \nCosmostation: https://wallet.cosmostation.io/ \nCitadel.One: https://citadel.one/ \nMath: https://mathwallet.org/web/secret \nLedger: https://build.scrt.network/ledger-nano-s.html
+SEFI,Link the blog,https://scrt.network/blog/sefi-governance-token-for-secret-defi
+sSCRT,What is sSCRT,
+SCRT,What is $SCRT,SCRT (pronounced  “Secret”) is the native coin of the Secret Network. This means SCRT is used to pay fees and transfer value on the network. Delegators have an opportunity to earn a share of fees and network rewards by supporting a particular set of validators. Another utility for SCRT is governance of the network.
+youtube,Link to the Secret Network YouTube,https://www.youtube.com/channel/UCZPqj7h7mzjwuSfw_UWxQPw
+website,Link to Secret Network website,https://scrt.network/
+twitter,Link to the Secret Network Twitter,https://twitter.com/SecretNetwork
+discord,Link to the Secret Network Discord,https://discord.com/invite/SJK32GY
+secretfinance,List of Secret DeFi apps links,
+stakewithwho,How should you decide who to stake with,Deciding which validator to stake with ultimately is up to each delegator. There are a host of things each delegator will want to consider 
+art,Link to SCRT Art / Media telegram,
+videos,Link to curated youtube playlist,
+committees,"What are committees, and how can I join one?","Committees are made up of experts and enthusiasts working together to build our network and ecosystem by executing Secret Missions! From Awareness, to Development, to Education, to Design, there’s a committee to fit every community member! \n https://scrt.network/committees/"
+ETHfees,Why are the ETH Bridge fees so high?,"SCRT Users pay a fee that’s deducted from assets on Ethereum. This fee is designed to cover the operating cost (the gas cost of the multisig TX to unlock the Ethereum assets) of the multisig and account for the volatility in gas prices. This fee is denominated in the base currency and is approximately equivalent to the price of 500,000 Ethereum gas, in the denomination of token you are withdrawing. \nFor more details around how the bridge omperate please visit: \nhttps://bridge.scrt.network/faq"
+awareness_meeting,Advertises awareness meeting,"Join our Awareness committee meeting on Discord (chat.scrt.network), Mondays at 4pm UTC!"
+education_meeting,Advertise education meeting,"Join our Education committee meeting on Discord (chat.scrt.network), Thursdays at 4pm UTC!"
+analytics_meeting,Advertises analytics meeting,"Join our Analytics committee meeting on Discord (chat.scrt.network), Thursdays at 7.30pm UTC!"
+website_meeting,Advertise website meeting,"Join our Website committee meeting on Discord (chat.scrt.network), Fridays at 4pm UTC!"
+devs_meeting,Advertise devs meeting,"Join our Devs committee meeting on Discord (chat.scrt.network), Mondays at 5pm UTC!"
+contribute,Link to project board,Contribute to any of the open projects today! \nTake a look at outstanding projects here: \n https://docs.google.com/spreadsheets/d/1wuz0WOYxbd_BXDiry62rVNlTyrue0pul1mPG_ke2wdU/edit?usp%3Dsharing&sa=D&source=editors&ust=1613511353036000&usg=AOvVaw0NXX6OW-fO3z6a1-IsGdPT
+unwrapWSCRT,How to unwrap WSCRT to sSCRT,How to unwrap WSCRT to sSCRT: https://www.youtube.com/watch?v=hS9HyPyaL-E
+convertsSCRT,How to convert sSCRT to SCRT,How to convert sSCRT to SCRT: https://www.youtube.com/watch?v=AGtJKMHIPls&t=3s
