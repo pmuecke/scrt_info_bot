@@ -1,0 +1,7 @@
+{
+    "commands": {
+        "Command": "commands",
+        "Description": "List of all commands",
+        "Output": "No output required"
+    }
+}
