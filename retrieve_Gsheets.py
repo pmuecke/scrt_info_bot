@@ -29,5 +29,3 @@ with requests.Session() as s:
 
     with open(csvFilePath, 'wb') as csvf:
         csvf.write(download.content)
-
-''.replace("'", "’")
