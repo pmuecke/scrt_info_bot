@@ -1,6 +1,6 @@
 """
 Informational Telegram Bot.
-Loads commands from commands.json in the config directory.
+Loads commands from commands.json in the data directory.
 Press Ctrl-C on the command line or send a signal to the process to stop the
 bot.
 """

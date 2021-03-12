@@ -1,6 +1,6 @@
 """
-Loads commands from commands.csv in the config directory.
-Outputs commands as commands.json in the config directory.
+Loads commands from commands.csv in the data directory.
+Outputs commands as commands.json in the data directory.
 New commands.json will be used by Telegram bot upon restart of bot.
 """
 
