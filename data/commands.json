@@ -2,7 +2,7 @@
     "commands": {
         "Command": "commands",
         "Description": "List of all commands",
-        "Output": "No output required"
+        "Output": "No output required - Please use \\n instead of enters!"
     },
     "socials": {
         "Command": "socials",
@@ -112,7 +112,7 @@
     "secrettokens": {
         "Command": "secrettokens",
         "Description": "What are Secret Tokens like sSCRT?",
-        "Output": "Secret Tokens, are tokens mimicking the ERC-20 standard that has the benefit of: \\n1) Having all balances be encrypted \\n2) Having the arguments into a transfer operation be encrypted\\n\\nSimply put, this ensures that any transaction and all rolling balances are forever kept encrypted. Each person can still query their own (and only their own) balance, as well as send tokens to others, privately. With very small changes, Secret Network can take a normal implementation of a token standard (like ERC-20, but WASM-compatible) and turn it into Secret Token standard.\\n https://scrt.network/blog/secret-tokens-programmable-privacy-for-defi "
+        "Output": "Secret Tokens are tokens native to Secret Network that mimic the ERC-20 standard on Ethereum. Secret Tokens have the benefit of: \\n1) Having all balances be encrypted \\n2) Having the arguments into a transfer operation be encrypted\\n\\nSimply put, this ensures that any transaction and all rolling balances are forever kept encrypted. Each person can still query their own (and only their own) balance, as well as send tokens to others, privately. With very small changes, Secret Network can take a normal implementation of a token standard (like ERC-20, but WASM-compatible) and turn it into a Secret Token standard.\\n https://scrt.network/blog/secret-tokens-programmable-privacy-for-defi "
     },
     "SCRT": {
         "Command": "SCRT",
@@ -147,7 +147,7 @@
     "stakewithwho": {
         "Command": "stakewithwho",
         "Description": "How should you decide who to stake with",
-        "Output": "Deciding which validator to stake with ultimately is up to each delegator. There are a host of things each delegator will want to consider "
+        "Output": "Deciding which validator to stake with ultimately is up to each delegator. There are a host of things each delegator will want to consider."
     },
     "art": {
         "Command": "art",
@@ -167,7 +167,7 @@
     "ETHfees": {
         "Command": "ETHfees",
         "Description": "Why are the ETH Bridge fees so high?",
-        "Output": "SCRT Users pay a fee that\u2019s deducted from assets on Ethereum. This fee is designed to cover the operating cost (the gas cost of the multisig TX to unlock the Ethereum assets) of the multisig and account for the volatility in gas prices. This fee is denominated in the base currency and is approximately equivalent to the price of 500,000 Ethereum gas, in the denomination of token you are withdrawing. \\nFor more details around how the bridge omperate please visit: \\nhttps://bridge.scrt.network/faq"
+        "Output": "When users move assets over the Secret Ethereum Bridge, they need to pay a fee that\u2019s deducted from their assets on Ethereum. This fee is designed to cover the operating costs (the gas cost of the multisig TX to unlock the Ethereum assets) and account for volatility in gas prices. This fee is denominated in the token you are withdrawing and is approximately equivalent to the price of 500,000 Ethereum gas. \\nFor more details around how the bridge operates, please visit: \\nhttps://bridge.scrt.network/faq"
     },
     "awareness_meeting": {
         "Command": "awareness_meeting",
@@ -182,7 +182,7 @@
     "analytics_meeting": {
         "Command": "analytics_meeting",
         "Description": "Advertises analytics meeting",
-        "Output": "Join our Analytics committee meeting on Discord (chat.scrt.network), Thursdays at 7.30pm UTC!"
+        "Output": "Join our Analytics committee meeting on Discord (chat.scrt.network), Thursdays at 6.30pm UTC!"
     },
     "website_meeting": {
         "Command": "website_meeting",
@@ -197,7 +197,7 @@
     "contribute": {
         "Command": "contribute",
         "Description": "Link to project board",
-        "Output": "Contribute to any of the open projects today! \\nTake a look at outstanding projects here: \\n https://docs.google.com/spreadsheets/d/1wuz0WOYxbd_BXDiry62rVNlTyrue0pul1mPG_ke2wdU/edit?usp%3Dsharing&sa=D&source=editors&ust=1613511353036000&usg=AOvVaw0NXX6OW-fO3z6a1-IsGdPT"
+        "Output": "Contribute to any of the open Secret Committee projects today! \\nTake a look at outstanding projects here: \\n https://docs.google.com/spreadsheets/d/1wuz0WOYxbd_BXDiry62rVNlTyrue0pul1mPG_ke2wdU/edit?usp%3Dsharing&sa=D&source=editors&ust=1613511353036000&usg=AOvVaw0NXX6OW-fO3z6a1-IsGdPT"
     },
     "unwrapWSCRT": {
         "Command": "unwrapWSCRT",
@@ -211,17 +211,17 @@
     },
     "blog": {
         "Command": "blog",
-        "Description": "",
+        "Description": "Blog",
         "Output": ""
     },
     "burn": {
         "Command": "burn",
-        "Description": "",
-        "Output": "ENG Swap"
+        "Description": "ENG Swap",
+        "Output": ""
     },
     "support": {
         "Command": "support",
-        "Description": "",
-        "Output": "Quick list of command for most frequently asked FAQ questions"
+        "Description": "Quick list of commands for most frequently asked FAQ questions",
+        "Output": "Bridge: /bridgesupport \\nSecretSwap: /ammsupport \\nStaking: /stakingsupport"
     }
 }
