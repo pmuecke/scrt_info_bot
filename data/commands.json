@@ -21,8 +21,8 @@
     },
     "privacy": {
         "Command": "privacy",
-        "Description": "Link a video about privacy",
-        "Output": ""
+        "Description": "Link to a brief video on privacy and Secret Network",
+        "Output": "https://www.youtube.com/watch?v=kQF9d7X2rdw"
     },
     "exchanges": {
         "Command": "exchanges",
@@ -39,15 +39,10 @@
         "Description": "What is a Secret Agent and how do you become one",
         "Output": "Secret Agents are community members who work alongside each other towards Secret\u2019s mission of global adoption for open-source, privacy-centric technologies. They are the core of our community and the true secret to our success. Secret Agents are also eligible for project funding and compensated leadership positions. To get started on your journey to becoming a Secret Agent start by filling out the form located here: \\nhttps://forms.gle/kYMXyWgS33W1FuPx5"
     },
-    "whitepaper": {
-        "Command": "whitepaper",
-        "Description": "link to whitepaper",
-        "Output": ""
-    },
     "graypaper": {
         "Command": "graypaper",
         "Description": "link to graypaper",
-        "Output": "https://www.securesecrets.org/pages/Secret_Network_Graypaper_2.0.1_1.pdf"
+        "Output": "https://scrt.network/graypaper"
     },
     "bridgesupport": {
         "Command": "bridgesupport",
@@ -66,8 +61,8 @@
     },
     "governance": {
         "Command": "governance",
-        "Description": "How to vote on Secret Network",
-        "Output": ""
+        "Description": "Learn about governance on Secret Network",
+        "Output": "https://scrt.network/blog/secret-network-governance"
     },
     "usecases": {
         "Command": "usecases",
@@ -77,7 +72,7 @@
     "develop": {
         "Command": "develop",
         "Description": "How to develop on Secret Network",
-        "Output": ""
+        "Output": "https://scrt.network/developers"
     },
     "buy": {
         "Command": "buy",
@@ -92,7 +87,7 @@
     "learn": {
         "Command": "learn",
         "Description": "Learn about Secret Network",
-        "Output": ""
+        "Output": "https://scrt.network/about/about-secret-network"
     },
     "viewingkey": {
         "Command": "viewingkey",
@@ -142,7 +137,7 @@
     "secretfinance": {
         "Command": "secretfinance",
         "Description": "List of Secret DeFi apps links",
-        "Output": ""
+        "Output": "Secret Auctions:   \\n Secret Swap: \\n Secret Bridge: \\n "
     },
     "stakewithwho": {
         "Command": "stakewithwho",
@@ -152,12 +147,7 @@
     "art": {
         "Command": "art",
         "Description": "Link to SCRT Art / Media telegram",
-        "Output": ""
-    },
-    "videos": {
-        "Command": "videos",
-        "Description": "Link to curated youtube playlist",
-        "Output": ""
+        "Output": "https://t.me/scrtMEDIA"
     },
     "committees": {
         "Command": "committees",
@@ -168,31 +158,6 @@
         "Command": "ETHfees",
         "Description": "Why are the ETH Bridge fees so high?",
         "Output": "When users move assets over the Secret Ethereum Bridge, they need to pay a fee that\u2019s deducted from their assets on Ethereum. This fee is designed to cover the operating costs (the gas cost of the multisig TX to unlock the Ethereum assets) and account for volatility in gas prices. This fee is denominated in the token you are withdrawing and is approximately equivalent to the price of 500,000 Ethereum gas. \\nFor more details around how the bridge operates, please visit: \\nhttps://bridge.scrt.network/faq"
-    },
-    "awareness_meeting": {
-        "Command": "awareness_meeting",
-        "Description": "Advertises awareness meeting",
-        "Output": "Join our Awareness committee meeting on Discord (chat.scrt.network), Mondays at 4pm UTC!"
-    },
-    "education_meeting": {
-        "Command": "education_meeting",
-        "Description": "Advertise education meeting",
-        "Output": "Join our Education committee meeting on Discord (chat.scrt.network), Thursdays at 4pm UTC!"
-    },
-    "analytics_meeting": {
-        "Command": "analytics_meeting",
-        "Description": "Advertises analytics meeting",
-        "Output": "Join our Analytics committee meeting on Discord (chat.scrt.network), Thursdays at 6.30pm UTC!"
-    },
-    "website_meeting": {
-        "Command": "website_meeting",
-        "Description": "Advertise website meeting",
-        "Output": "Join our Website committee meeting on Discord (chat.scrt.network), Fridays at 4pm UTC!"
-    },
-    "devs_meeting": {
-        "Command": "devs_meeting",
-        "Description": "Advertise devs meeting",
-        "Output": "Join our Devs committee meeting on Discord (chat.scrt.network), Mondays at 5pm UTC!"
     },
     "contribute": {
         "Command": "contribute",
@@ -209,10 +174,10 @@
         "Description": "How to convert sSCRT to SCRT",
         "Output": "How to convert sSCRT to SCRT: https://www.youtube.com/watch?v=AGtJKMHIPls&t=3s"
     },
-    "blog": {
-        "Command": "blog",
-        "Description": "Blog",
-        "Output": ""
+    "media": {
+        "Command": "media",
+        "Description": "Media",
+        "Output": "https://scrt.network/media/features"
     },
     "burn": {
         "Command": "burn",

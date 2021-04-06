@@ -3,6 +3,7 @@ import configparser
 import json
 from discord.ext import commands
 import time
+import asyncio
 
 # Config: Load Telegram token
 config = configparser.ConfigParser()
@@ -24,39 +25,32 @@ bot = commands.Bot(command_prefix='/')
 for key, val in command_dict.items():
     if key != 'commands':
         exec(f'''@bot.command()\nasync def {key}(ctx):\n 
-        await ctx.channel.send("""{val.get('Output')}""")''')
+        msg = await ctx.channel.send("""{val.get('Output')}""")\n
+        await asyncio.sleep(60)\n
+        await msg.delete()''')
     else:
         commands_text = ""
+        more_text = ""
+        commands_counter=0
         for key_com, val_com in command_dict.items():
-            commands_text += f'/{key_com}: {val_com.get("Description")}\n'
+            if (commands_counter < 10) & (key_com != 'commands'):
+                if commands_counter == 0:
+                    commands_text += f'/more_commands: Commands not listed here\n'    
+                commands_text += f'/```ini\n{key_com}\n```: {val_com.get("Description")}\n'
+                commands_counter += 1
+                
+            elif key_com != 'commands':
+                more_text += f'/{key_com}: {val_com.get("Description")}\n'
         exec(f'''@bot.command()\nasync def {key}(ctx):\n
-        await ctx.channel.send("""{commands_text}""")''')  
+        msg = await ctx.channel.send("""{commands_text}""")\n
+        await asyncio.sleep(30)\n
+        await msg.delete()''')
+        exec(f'''@bot.command()\nasync def more_commands(ctx):\n
+        msg = await ctx.channel.send("""{more_text}""")\n
+        await asyncio.sleep(30)\n
+        await msg.delete()''')  
 
-@bot.command()
-async def foo(ctx):
-    await ctx.send('Hello')
-'''
-@client.event
-async def on_message(message):
-    # Prevent reacting on itself
-    if message.author == client.user:
-        return
 
-    # Loop through all available commands
-    for command, val in command_dict.items():
-        if command != 'commands':
-            msg = val.get("Output").replace('\\n', '\n').replace('\\t', '\t')
-        else:
-            commands_text = ""
-            for key_com, val_com in command_dict.items():
-                val_com_output = val_com.get("Description")
-                commands_text += f'/{key_com}: {val_com_output}\n'
-            msg = commands_text
-
-        # Send message to channel
-        if message.content.startswith(f'/{command.lower()}'):
-            await message.channel.send(msg)
-'''
 @bot.event
 async def on_ready():
     print('Logged in as')
@@ -65,4 +59,3 @@ async def on_ready():
     print('------')
 
 bot.run(token)
-#client.run(token)
