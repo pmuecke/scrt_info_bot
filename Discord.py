@@ -25,9 +25,7 @@ bot = commands.Bot(command_prefix='/')
 for key, val in command_dict.items():
     if key != 'commands':
         exec(f'''@bot.command()\nasync def {key}(ctx):\n 
-        msg = await ctx.channel.send("""{val.get('Output')}""")\n
-        await asyncio.sleep(60)\n
-        await msg.delete()''')
+        msg = await ctx.channel.send("""{val.get('Output')}""")''')
     else:
         commands_text = ""
         more_text = ""
