@@ -3,7 +3,7 @@ import configparser
 import json
 from discord.ext import commands
 import time
-#import asyncio
+import asyncio
 import pandas as pd
 from discord import utils
 
@@ -71,8 +71,11 @@ for key, val in command_dict.items():
 @bot.command(pass_context=True)
 #@commands.has_role("Secret Agent")
 async def update_roles(ctx):
+    #time.sleep(15)
     print('Starting update_roles command')
     failed_users = []
+    successful_users = []
+    stable_users = []
     try:
         roles_json = retrieve_roles()
     except:
@@ -92,12 +95,22 @@ async def update_roles(ctx):
                 elif role_name == 'Secret Agent':
                     discord_role_name = 'Secret Agent'
                 role = utils.get(ctx.message.guild.roles, name=discord_role_name)
-                #print(role, user)
+                #print(role in user.roles, role, user)
+                
 
-                if (user != None) and (role != None) and (role not in user.roles):
-                    await user.add_roles(role)
+                if (user != None) and (role != None):
+                    try:
+                        if role not in user.roles:
+                            successful_users.append(f'{role_name}: {discord_handle}')
+                            await user.add_roles(role)
+                        #else: 
+                        #   print(f'Role already assigned')
+                    except:
+                        failed_users.append(f'{role_name}: {discord_handle} -- Failed to add role')
                 elif (user == None) or (role == None):
                     failed_users.append(f'{role_name}: {discord_handle}')
+                if role in user.roles:
+                    stable_users.append(f'{role_name}: {discord_handle}')
             except:
                 failed_users.append(f'{role_name}: {discord_handle}')
     
@@ -105,6 +118,30 @@ async def update_roles(ctx):
     with open(f'data/failed_discordnames.txt', 'w') as file:
         file.write("\n".join(sorted(failed_users)))
         #print(f'Saved Discord names that resulted in an error in {ctx.guild}')
+    
+    with open(f'data/successful_discordnames.txt', 'w') as file:
+        file.write("\n".join(sorted(successful_users)))
+
+    with open(f'data/stable_discordnames.txt', 'w') as file:
+        file.write("\n".join(sorted(stable_users)))
+
+    if len(failed_users) > 0:
+        failed_users_name = [x.split(": ")[1].split(" -- ")[0] for x in failed_users]
+        msg2 = await ctx.channel.send(f'Failed to add new ranks to: {", ".join(failed_users_name)}')
+        await asyncio.sleep(30)
+        await msg2.delete()
+    '''
+    if len(successful_users) != 0:
+        successful_users_name = [x.split(": ")[1] for x in successful_users]
+        msg1 = await ctx.channel.send(f'Added new ranks to: {", ".join(successful_users_name)}')
+        await asyncio.sleep(30)
+        await msg1.delete()  
+    if len(stable_users) > 0:
+        stable_users_name = [x.split(": ")[1] for x in stable_users]
+        msg3 = await ctx.channel.send(f'No new ranks found for: {", ".join(stable_users_name)}')
+        await asyncio.sleep(30)
+        await msg3.delete()
+    '''
     
     print('Finished update_roles command')
 

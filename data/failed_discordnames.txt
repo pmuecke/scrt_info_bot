@@ -1,84 +1,87 @@
-Informant: #2408 Ospreyl
-Informant: Hoang Bui#2912
-Informant: Javieretete#3948
-Informant: Mogenrath#7398
-Informant: jeremyjankowski
-Recruit:  tim2021#8613
-Recruit: 121363848069513216
-Recruit: 805443240803303454
-Recruit: Aaronsmith479#8817
-Recruit: Alt-Wheezy
-Recruit: Bigboydefipants
-Recruit: Bullish Link
-Recruit: COLLIN#8363
-Recruit: Carter W. | Edu Committee LEad#9979
-Recruit: Chippas#0601
-Recruit: CopperPitch#6923
-Recruit: Cryptowalker
-Recruit: Damlesky
-Recruit: DindaAyu#0989
-Recruit: Dremalaylay#2712
-Recruit: Drew0776#0818
-Recruit: DrunkenFrog#2342
-Recruit: Fluntress#6153
-Recruit: Frangsss#2307
-Recruit: Frank Shacker #8562
-Recruit: Gerard Persoon #7986
-Recruit: Iggy
-Recruit: Illthalion
-Recruit: John O. #2400
-Recruit: John | Secretisland#0737
-Recruit: Jonathan Zy#9554
-Recruit: Jun Yu
-Recruit: Koko
-Recruit: Max_Hatesuer | Tokemy#8511
-Recruit: Maximus#2356
-Recruit: Metal Babble
-Recruit: Metalligod
-Recruit: Mrvzclk
-Recruit: Myedzjosh
-Recruit: Na
-Recruit: Novi3042
-Recruit: Phemmyakin#3085
-Recruit: Prins jojo
-Recruit: RandomUser#2785
-Recruit: Red Fox
-Recruit: Rene_Martin
-Recruit: Saba T
-Recruit: Siminfuture2
-Recruit: Sirgerard
-Recruit: Sketty
-Recruit: Smurfy#0085
-Recruit: Spidymonkey
-Recruit: Strata5
-Recruit: Vikinggroove
-Recruit: WSlogen
-Recruit: Wadanoni95
-Recruit: amazingdarus
-Recruit: bboy #5329
-Recruit: cade#2306
-Recruit: cardiff
-Recruit: cryptoproph
-Recruit: cswizzy
-Recruit: cvlucian
-Recruit: didier_tkt
-Recruit: ecret Agent James#0357
-Recruit: eez_davido#9297
-Recruit: fuzzy#0786
-Recruit: goopcat#1337
-Recruit: jiten | C&B Ambassador#1825
-Recruit: johnniered
-Recruit: jojie#6190
-Recruit: jubayeddipu
-Recruit: kelvinoyibo1
-Recruit: laura | ChainofSecrets.org#8516
-Recruit: lian0512
-Recruit: marcorv#1070
-Recruit: pulsardream#0438
-Recruit: richo262
-Recruit: rollerdance#4981
-Recruit: sjeantje#1964
-Recruit: yung_tsak#8704
-Recruit: z00x
-Spymaster: Orageux101 #5504
-Spymaster: morrybo
+Handler: Todo Terreno Boy#3948 -- Failed to run code
+Informant: @Hoang (Juan)#2912 -- Failed to run code
+Informant: Lucas Zorzenoni  -- Failed to run code
+Informant: Mogenrath#7398 -- Failed to run code
+Informant: Quopius #5437 -- Failed to run code
+Recruit:  @tim2021#8613 -- Failed to run code
+Recruit: 121363848069513216 -- Failed to run code
+Recruit: 805443240803303454 -- Failed to run code
+Recruit: @Aaronsmith479#8817 -- Failed to run code
+Recruit: @Alt_Wheezy#9288 -- Failed to run code
+Recruit: @Fluntress#1945 -- Failed to run code
+Recruit: @Iggy #8294 -- Failed to run code
+Recruit: @RedfoxLG13#8848 -- Failed to run code
+Recruit: Ata7#3808 -- Failed to run code
+Recruit: COLLIN#8363 -- Failed to run code
+Recruit: Carter W. | Edu Committee LEad#9979 -- Failed to run code
+Recruit: Chippas#0601 -- Failed to run code
+Recruit: CopperPitch#6923 -- Failed to run code
+Recruit: Cryptowalker -- Failed to run code
+Recruit: Damlesky -- Failed to run code
+Recruit: DindaAyu#0989 -- Failed to run code
+Recruit: Dremalaylay#2712 -- Failed to run code
+Recruit: Drew0776#0818 -- Failed to run code
+Recruit: DrunkenFrog#2342 -- Failed to run code
+Recruit: Frangsss#2307 -- Failed to run code
+Recruit: Frank Shacker #8562 -- Failed to run code
+Recruit: Gerard Persoon #7986 -- Failed to run code
+Recruit: Illthalion -- Failed to run code
+Recruit: John O. #2400 -- Failed to run code
+Recruit: John | Secretisland#0737 -- Failed to run code
+Recruit: Jonathan Zy#9554 -- Failed to run code
+Recruit: Julian#3190 -- Failed to run code
+Recruit: Jun Yu -- Failed to run code
+Recruit: Koko -- Failed to run code
+Recruit: Max_Hatesuer | Tokemy#8511 -- Failed to run code
+Recruit: Maximus#2356 -- Failed to run code
+Recruit: Metal Babble -- Failed to run code
+Recruit: Metalligod -- Failed to run code
+Recruit: Mrvzclk -- Failed to run code
+Recruit: Myedzjosh -- Failed to run code
+Recruit: Na -- Failed to run code
+Recruit: Novi3042 -- Failed to run code
+Recruit: Phemmyakin#3085 -- Failed to run code
+Recruit: Prins jojo -- Failed to run code
+Recruit: RandomUser#2785 -- Failed to run code
+Recruit: Saba T -- Failed to run code
+Recruit: Silent_King -- Failed to run code
+Recruit: Siminfuture2 -- Failed to run code
+Recruit: Sirgerard -- Failed to run code
+Recruit: Sketty -- Failed to run code
+Recruit: Smurfy#0085 -- Failed to run code
+Recruit: Spidymonkey -- Failed to run code
+Recruit: Strata5 -- Failed to run code
+Recruit: Vikinggroove -- Failed to run code
+Recruit: WSlogen -- Failed to run code
+Recruit: Wadanoni95 -- Failed to run code
+Recruit: XXGagXX55 -- Failed to run code
+Recruit: amazingdarus -- Failed to run code
+Recruit: bboy #5329 -- Failed to run code
+Recruit: cade#2306 -- Failed to run code
+Recruit: cardiff -- Failed to run code
+Recruit: cryptoproph -- Failed to run code
+Recruit: cswizzy -- Failed to run code
+Recruit: cvlucian -- Failed to run code
+Recruit: didier_tkt -- Failed to run code
+Recruit: ecret Agent James#0357 -- Failed to run code
+Recruit: fuzzy#0786 -- Failed to run code
+Recruit: goopcat#1337 -- Failed to run code
+Recruit: jiten | C&B Ambassador#1825 -- Failed to run code
+Recruit: johnniered -- Failed to run code
+Recruit: jojie#6190 -- Failed to run code
+Recruit: jubayeddipu -- Failed to run code
+Recruit: kelvinoyibo1 -- Failed to run code
+Recruit: laura | ChainofSecrets.org#8516 -- Failed to run code
+Recruit: lian0512 -- Failed to run code
+Recruit: marcorv#1070 -- Failed to run code
+Recruit: muyunping -- Failed to run code
+Recruit: pulsardream#0438 -- Failed to run code
+Recruit: rheeunion#0605 -- Failed to run code
+Recruit: richo262 -- Failed to run code
+Recruit: rollerdance#4981 -- Failed to run code
+Recruit: sjeantje#1964 -- Failed to run code
+Recruit: yung_tsak#8704 -- Failed to run code
+Recruit: ywiec #2608 -- Failed to run code
+Recruit: z00x -- Failed to run code
+Spymaster: @Iowascero -- Failed to run code
+Spymaster: @morryscrt#1323 -- Failed to run code
